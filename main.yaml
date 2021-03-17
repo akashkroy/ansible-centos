@@ -1,0 +1,5 @@
+- hosts: centos
+  become: yes
+  tasks:
+    - include_vars: vars/main.yaml
+    - import_tasks: tasks/ssh.yaml
