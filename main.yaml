@@ -3,3 +3,4 @@
   tasks:
     - include_vars: vars/main.yaml
     - import_tasks: tasks/ssh.yaml
+    - import_tasks: tasks/fail2ban.yaml
